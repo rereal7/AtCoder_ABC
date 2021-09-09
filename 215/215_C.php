@@ -12,12 +12,12 @@ $ans = array_values(array_unique($a));
 // var_dump($ans);
 
 //結果
-echo $ans[$k+1];
+echo $ans[$k-1];
 
 //参照
 //https://www.softel.co.jp/blogs/tech/archives/2263
 //関数
-function pat($a, $s = '')
+function pat(array $a, string $s = '')
 {
   $r = array();
   if (count($a) && is_array($a)) {
