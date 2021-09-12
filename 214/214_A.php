@@ -6,5 +6,4 @@ if($n<=125){
 }else if($n>=126 && $n<=211){
 	$count = '6';
 }
-
 echo $count;
