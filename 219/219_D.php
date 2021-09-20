@@ -1,4 +1,14 @@
 <?php
+$N = trim(fgets(STDIN));
+[$x, $y] = int(2);
+for($i=0; $i<$N; $i++){
+	[$A[], $B[]] = int(2);
+}
+
+var_dump($x);
+var_dump($y);
+var_dump($A);
+var_dump($B);
 
 
 //関数
@@ -11,7 +21,3 @@ function str($N=1){
 function float($N=1){
 	return fscanf(STDIN, str_repeat("%f", $N));
 }
-
-// $input = trim(fgets(STDIN));
-// $inputs = explode(" ", trim(fgets(STDIN)));
-// $inputs = array_map('intval', explode(" ", trim(fgets(STDIN))));

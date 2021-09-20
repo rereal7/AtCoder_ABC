@@ -1,4 +1,17 @@
 <?php
+$n = (int) trim(fgets(STDIN));
+$ans = 0;
+if($n < 40){
+	$ans = 40-$n;
+}else if($n < 70){
+	$ans = 70-$n;
+}else if($n < 90){
+	$ans = 90-$n;
+}else{
+	$ans = 'expert';
+}
+
+echo $ans;
 
 
 //関数
@@ -11,7 +24,3 @@ function str($N=1){
 function float($N=1){
 	return fscanf(STDIN, str_repeat("%f", $N));
 }
-
-// $input = trim(fgets(STDIN));
-// $inputs = explode(" ", trim(fgets(STDIN)));
-// $inputs = array_map('intval', explode(" ", trim(fgets(STDIN))));
