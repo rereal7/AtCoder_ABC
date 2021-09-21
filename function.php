@@ -10,3 +10,10 @@ function zaatsu($array){
 	}
 	return $array;
 }
+
+function swap($N, $M){
+	$tmp = $N;
+	$N = $M;
+	$M = $tmp;
+	return [$N, $M];
+}
