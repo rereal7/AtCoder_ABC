@@ -1,4 +1,7 @@
 <?php
+// 正答はでない。
+// 作りかけのプログラム。
+// update:2021/9/18(Sat)
 $alp = array_flip(str_split(trim(fgets(STDIN))));
 $N = (int) trim(fgets(STDIN));
 $names = [];
