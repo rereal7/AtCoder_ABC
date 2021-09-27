@@ -1,4 +1,5 @@
 <?php
+// まだ解けてない
 $N = trim(fgets(STDIN));
 [$x, $y] = int(2);
 for($i=0; $i<$N; $i++){
