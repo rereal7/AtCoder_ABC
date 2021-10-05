@@ -23,5 +23,8 @@ a,b,c,d = map(int, input().split())
 ans = -1
 diff = c*d-b
 if diff > 0:
+	# なぜ下記のような式になっているのか
+	# まず、切り捨てが必要なので分母を分子に足す
+	# ただし、割り切れてしまう時を考慮して、-1しておく必要がある
 	ans = (a+diff-1)//diff
 print(ans)
