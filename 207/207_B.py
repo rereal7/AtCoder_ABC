@@ -17,3 +17,11 @@ if flag:
 	print(-1)
 else:
 	print(i)
+
+# 別解
+a,b,c,d = map(int, input().split())
+ans = -1
+diff = c*d-b
+if diff > 0:
+	ans = (a+diff-1)//diff
+print(ans)
