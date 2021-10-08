@@ -1,4 +1,4 @@
-# LTE(1≤C≤10**9 Cは指数)
+# LTE(1≤C≤10**9 Cは指数)になり不正解
 a,b,c = map(int,input().split())
 d = pow(a,c)
 e = pow(b,c)
