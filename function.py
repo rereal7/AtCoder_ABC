@@ -11,7 +11,7 @@ def binary_search(key:int, A:list):
 		flag = False
 		if A[mid] >= key :
 			flag = True
-		
+
 		if flag:
 			ok = mid
 		else:
